@@ -78,7 +78,7 @@ function Header() {
             </div>
             <div className="mt-9"></div> 
             <div className='hidden md:block'>
-                <div className='text-3xl grid grid-cols-5 gap-4 place-items-center max-[1500px]:text-2xl max-[1200px]:text-xl'>
+                <div className='text-3xl justify-between flex pl-12 pr-12 place-items-center max-[1500px]:text-2xl max-[1200px]:text-xl'>
                     <div>
                         <Link to='/apresentacao'>
                             <h2 className='font-aleo text-stone-300 cursor-pointer'>Apresentação</h2>
@@ -94,11 +94,7 @@ function Header() {
                             <h2 className='font-aleo text-stone-300 cursor-pointer'>Materiais utilizados</h2>
                         </Link>
                     </div>
-                    <div>
-                        <Link to="/canaa">
-                            <h2 className='font-aleo text-stone-300 cursor-pointer'>CANAÃ</h2>
-                        </Link>
-                    </div>
+                   
                     <div>
                         <Link to='/quem-somos'>
                             <h2 className='font-aleo text-stone-300 cursor-pointer'>Quem somos</h2>
